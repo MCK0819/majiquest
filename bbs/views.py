@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from rest_framework import viewsets
+from .serializers import BbsSerializer
+from .models import Board
 
-# Create your views here.
+class BbsViewSet(viewsets.ModelViewSet):
+    queryset = Board.objects.all()
+    serializer_class = BbsSerializer

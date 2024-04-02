@@ -4,7 +4,7 @@ from .views import BbsViewSet
 
 router = routers.DefaultRouter()
 router.register(
-    'bbs', BbsViewSet, basename='bbs'
+    '', BbsViewSet
 )
 
 urlpatterns = [
