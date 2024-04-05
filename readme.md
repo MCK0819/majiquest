@@ -1,4 +1,4 @@
-# Majiquest 
+# Majiquest
 
 현실 퀘스트 요청/완료 게시판 페이지
 
@@ -7,11 +7,9 @@
 python3.9 , postgresql, django, django-restframework,
 
 ### Prerequisites / 선행 조건
-
-아래 사항들이 설치가 되어있어야합니다.
-
+커맨드를 입력하면 필요한 라이브러리들이 설치됩니다.
 ```
-예시
+pip install -r requirements.txt
 ```
 
 ### Installing / 설치
@@ -34,24 +32,9 @@ python3.9 , postgresql, django, django-restframework,
 예시
 ```
 
-### 테스트는 이런 식으로 작성하시면 됩니다
-
-```
-예시
-```
-
 ## Deployment / 배포
 
 Add additional notes about how to deploy this on a live system / 라이브 시스템을 배포하는 방법
-
-## Built With / 누구랑 만들었나요?
-
-* [이름](링크) - 무엇 무엇을 했어요
-* [Name](Link) - Create README.md
-
-## Contributiong / 기여
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us. / [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) 를 읽고 이에 맞추어 pull request 를 해주세요.
 
 ## License / 라이센스
 This project is licensed under the MIT License - see the [LICENSE.md](https://gist.github.com/PurpleBooth/LICENSE.md) file for details / 이 프로젝트는 MIT 라이센스로 라이센스가 부여되어 있습니다. 자세한 내용은 LICENSE.md 파일을 참고하세요.
